@@ -3,10 +3,24 @@
 
 #include QMK_KEYBOARD_H
 
+<<<<<<< Updated upstream:keyboards/keebio/iris_lm/keymaps/default/keymap.c
 enum custom_layers {
      _QWERTY,
      _LOWER,
      _RAISE
+=======
+
+#define _QWERTY 0
+#define _LOWER 1
+#define _RAISE 2
+#define _ADJUST 3
+
+enum custom_keycodes {
+  QWERTY = SAFE_RANGE,
+  LOWER,
+  RAISE,
+  ADJUST,
+>>>>>>> Stashed changes:keyboards/keebio/iris/keymaps/default/keymap.c
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
