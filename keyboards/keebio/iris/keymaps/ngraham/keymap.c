@@ -102,7 +102,7 @@ LCTL_T(KC_LGUI), KC_Z, KC_X,   KC_C,    KC_V,    KC_B,   KC_HOME,    KC_END,  KC
    RGB_VAI, RGB_TOG, KC_WBAK, KC_MS_U, KC_WFWD, KC_VOLU,                     KC_F5,   KC_F10,   KC_UP,  KC_F11,  KC_PSCR, KC_TRNS,
 //├────────┼────────┼────────┼────────┼────────┼────────┤                   ├────────┼────────┼────────┼────────┼────────┼────────┤
    RGB_VAD, KC_TRNS, KC_MS_L, KC_MS_D, KC_MS_R, KC_VOLD,                     KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT,  KC_END, KC_TRNS,
-//├────────┼────────┼────────┼────────┼────────┼────────┤                   ├────────┼────────┼────────┼────────┼────────┼────────┤
+//├────────┼────────┼────────┼────────┼────────┼────────┼────────┐ ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
    KC_LSFT, KC_TRNS, KC_BTN2, KC_BTN3, KC_BTN1, KC_MUTE,  TG(3),     TG(4),  KC_ACL0, KC_PGDN, KC_PGUP, KC_TRNS, KC_TRNS, KC_TRNS,
 //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘ └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                       LALT_T(KC_DEL), LSFT_T(KC_BSPC), LCTL_T(KC_SPC),  KC_TRNS, KC_TRNS, KC_TRNS
@@ -116,7 +116,7 @@ LCTL_T(KC_LGUI), KC_Z, KC_X,   KC_C,    KC_V,    KC_B,   KC_HOME,    KC_END,  KC
    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                     RGB_SAI, RGB_SPI, RGB_VAI, RGB_HUI, RGB_MOD, KC_TRNS, 
 //├────────┼────────┼────────┼────────┼────────┼────────┤                   ├────────┼────────┼────────┼────────┼────────┼────────┤
    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                     RGB_SAD, RGB_SPD, RGB_VAD, RGB_HUD, RGB_RMOD, KC_TRNS, 
-//├────────┼────────┼────────┼────────┼────────┼────────┤                   ├────────┼────────┼────────┼────────┼────────┼────────┤
+//├────────┼────────┼────────┼────────┼────────┼────────┼────────┐ ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  TG(3),      MJ,    RGB_TOG, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘ └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
 								         KC_TRNS, KC_LCTL, KC_SPC,              KC_TRNS, KC_TRNS, KC_TRNS
